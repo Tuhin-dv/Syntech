@@ -1,0 +1,130 @@
+[
+  {
+    "id": "b1",
+    "name": "The Silent Patient",
+    "price": 14.99,
+    "description": "A psychological thriller about a woman’s act of violence against her husband.",
+    "writtenBy": "Alex Michaelides",
+    "image": "/images/silent-patient.jpg"
+  },
+  {
+    "id": "b2",
+    "name": "Atomic Habits",
+    "price": 18.50,
+    "description": "Build good habits and break bad ones to transform your life.",
+    "writtenBy": "James Clear",
+    "image": "/images/atomic-habits.jpg"
+  },
+  {
+    "id": "b3",
+    "name": "The Alchemist",
+    "price": 12.00,
+    "description": "A magical story about following your dreams and listening to your heart.",
+    "writtenBy": "Paulo Coelho",
+    "image": "/images/the-alchemist.jpg"
+  },
+  {
+    "id": "b4",
+    "name": "Educated",
+    "price": 15.25,
+    "description": "A girl who was kept out of school and ended up earning a PhD from Cambridge.",
+    "writtenBy": "Tara Westover",
+    "image": "/images/educated.jpg"
+  },
+  {
+    "id": "b5",
+    "name": "The Subtle Art of Not Giving a F*ck",
+    "price": 16.75,
+    "description": "A counterintuitive approach to living a good life.",
+    "writtenBy": "Mark Manson",
+    "image": "/images/subtle-art.jpg"
+  },
+  {
+    "id": "b6",
+    "name": "Rich Dad Poor Dad",
+    "price": 13.90,
+    "description": "Teaches financial independence and investing.",
+    "writtenBy": "Robert Kiyosaki",
+    "image": "/images/rich-dad.jpg"
+  },
+  {
+    "id": "b7",
+    "name": "Think and Grow Rich",
+    "price": 11.99,
+    "description": "Success principles based on interviews with the world's richest people.",
+    "writtenBy": "Napoleon Hill",
+    "image": "/images/think-grow-rich.jpg"
+  },
+  {
+    "id": "b8",
+    "name": "1984",
+    "price": 10.50,
+    "description": "A dystopian novel about government surveillance and control.",
+    "writtenBy": "George Orwell",
+    "image": "/images/1984.jpg"
+  },
+  {
+    "id": "b9",
+    "name": "To Kill a Mockingbird",
+    "price": 13.00,
+    "description": "A powerful story of racial injustice in the Deep South.",
+    "writtenBy": "Harper Lee",
+    "image": "/images/mockingbird.jpg"
+  },
+  {
+    "id": "b10",
+    "name": "The Power of Now",
+    "price": 17.20,
+    "description": "Spiritual teachings about living in the present moment.",
+    "writtenBy": "Eckhart Tolle",
+    "image": "/images/power-now.jpg"
+  },
+  {
+    "id": "b11",
+    "name": "Sapiens",
+    "price": 19.40,
+    "description": "A brief history of humankind, from evolution to modern society.",
+    "writtenBy": "Yuval Noah Harari",
+    "image": "/images/sapiens.jpg"
+  },
+  {
+    "id": "b12",
+    "name": "The Book Thief",
+    "price": 14.30,
+    "description": "A young girl steals books in Nazi Germany and shares them with others.",
+    "writtenBy": "Markus Zusak",
+    "image": "/images/book-thief.jpg"
+  },
+  {
+    "id": "b13",
+    "name": "The Catcher in the Rye",
+    "price": 12.99,
+    "description": "A story of teenage alienation in post-war America.",
+    "writtenBy": "J.D. Salinger",
+    "image": "/images/catcher-rye.jpg"
+  },
+  {
+    "id": "b14",
+    "name": "The 5 AM Club",
+    "price": 16.00,
+    "description": "Wake up early and own your morning to elevate your life.",
+    "writtenBy": "Robin Sharma",
+    "image": "/images/5am-club.jpg"
+  },
+  {
+    "id": "b15",
+    "name": "Can’t Hurt Me",
+    "price": 18.80,
+    "description": "The inspiring life of Navy SEAL David Goggins.",
+    "writtenBy": "David Goggins",
+    "image": "/images/cant-hurt-me.jpg"
+  },
+  {
+    "id": "b16",
+    "name": "The Psychology of Money",
+    "price": 15.75,
+    "description": "Timeless lessons on wealth, greed, and happiness.",
+    "writtenBy": "Morgan Housel",
+    "image": "/images/psychology-money.jpg"
+  }
+]

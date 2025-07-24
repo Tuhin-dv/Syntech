@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+  }
+}
+
+.primary-color {
+  background-color: #296bd5;
+}
+
+.secondary-color {
+  background-color: #F1F6F9;
+}
+
+.text-primary {
+  color: #1C1E21;
+}
+
+
+input::placeholder {
+  color: black;
+
+}

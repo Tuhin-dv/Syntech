@@ -45,8 +45,6 @@ export const animateBall = (target) => {
         {
             x: 900, // Adjust this based on text width
             duration: 1.5,
-            scale: 3,
-            borderRadius: "50%",
             delay: 1,
             ease: "power2.inOut",
             onComplete: () => {
@@ -61,3 +59,14 @@ export const animateBall = (target) => {
         }
     );
 };
+
+// export const webName = (target) => {
+//      gsap.fromTo(
+//          target,
+//      {x:0},
+//      {
+//         transform: "translateX(-150%)",
+        
+//      }
+//      )
+// }

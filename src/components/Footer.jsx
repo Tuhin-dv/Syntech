@@ -4,52 +4,33 @@ import { MdArrowOutward } from "react-icons/md";
 
 function Footer() {
     return (
-        <footer className="bg-[#0c0c0e] text-white min-h-screen rounded-3xl mt-12 overflow-hidden font-sans">
+        <footer className="bg-[#bd2366] text-white  rounded-3xl mt-12 overflow-hidden font-sans">
             {/* Marquee Section-------------------------------- */}
-            <div className="pt-20 border-b border-white/10">
-                <Marquee>
-                    <div className="flex gap-16">
-                        {/* Each item */}
-                        <div className="text-white flex items-center gap-5 group cursor-pointer">
-                            <h1 className="text-7xl font-bold">Book a Call</h1>
-                            <MdArrowOutward
-                                className="mt-4 transition-all duration-300 group-hover:-translate-y-3"
-                                size={55}
-                            />
-                        </div>
-                        <div className="text-white flex items-center gap-5 group cursor-pointer">
-                            <h1 className="text-7xl font-bold">Book a Call</h1>
-                            <MdArrowOutward
-                                className="mt-4 transition-all duration-300 group-hover:-translate-y-3"
-                                size={55}
-                            />
-                        </div>
-                        <div className="text-white flex items-center gap-5 group cursor-pointer">
-                            <h1 className="text-7xl font-bold">Book a Call</h1>
-                            <MdArrowOutward
-                                className="mt-4 transition-all duration-300 group-hover:-translate-y-3"
-                                size={55}
-                            />
-                        </div>
-                        <div className="text-white flex items-center gap-5 group cursor-pointer">
-                            <h1 className="text-7xl font-bold">Book a Call</h1>
-                            <MdArrowOutward
-                                className="mt-4 transition-all duration-300 group-hover:-translate-y-3"
-                                size={55}
-                            />
-                        </div>
-                        <div className="text-white flex items-center gap-5 group cursor-pointer">
-                            <h1 className="text-7xl font-bold">Book a Call</h1>
-                            <MdArrowOutward
-                                className="mt-4 transition-all duration-300 group-hover:-translate-y-3"
-                                size={55}
-                            />
-                        </div>
+            <div className="relative pt-20 border-b max-w-[1700px] mx-auto pb-4 border-white/10 overflow-hidden">
+                {/* Left smooth fade shadow */}
+                <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-[#0e0e0e] to-transparent z-10 pointer-events-none" />
+                {/* Right smooth fade shadow */}
+                <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-[#0e0e0e] to-transparent z-10 pointer-events-none" />
 
-                        {/* You can duplicate the above div to repeat */}
+                <Marquee gradient={false} speed={60}>
+                    <div className="flex gap-16">
+                        {[...Array(8)].map((_, i) => (
+                            <div
+                                key={i}
+                                className="text-white flex items-center gap-5 group cursor-pointer"
+                            >
+                                <h1 className="text-7xl font-bold">Book a Call</h1>
+                                <MdArrowOutward
+                                    className="mt-4 transition-all duration-300 group-hover:-translate-y-3"
+                                    size={55}
+                                />
+                            </div>
+                        ))}
                     </div>
                 </Marquee>
             </div>
+
+
             {/* Grid Section */}
             <div className="max-w-[1780px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 py-20 px-10 text-center md:text-left">
                 {/* Social */}

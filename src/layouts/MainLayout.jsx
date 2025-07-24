@@ -9,7 +9,7 @@ function MainLayout() {
     <>
       <div>
         <ScrollProvider>
-          <div className='bg-white p-3'>
+          <div className='secondary-color p-3'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
